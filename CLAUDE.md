@@ -43,6 +43,9 @@ WAPERD/WPPE, psikotes rekrutmen BUMN/swasta, PCPM BI, OJK, sertifikasi industri 
 - [x] Struktur MULTI-UJIAN: / = hub, /clida/ = landing CLIDA, /clida/artikel/<slug>; redirect 301 dari /artikel/*.
       Tambah ujian: entri EXAMS di tools/build.py + UJIAN di functions/api/waitlist.js + public/<ujian>/index.html.
 - Gemini API key ada di env user GEMINI_API_KEY (baca dari registry, jangan dicetak). Free tier: pakai gemini-flash-latest (Pro kena 429).
+- KEPUTUSAN 16 Nov 2026: pembayaran = Mayar produk e-book (opsi A, lihat docs/produk-digital.md); domain = marikitaujian.com via Cloudflare Registrar (Ivan yang membayar).
+- Ekstensi Claude in Chrome sudah terpasang di Edge Ivan (cek dengan list_connected_browsers di sesi berikut).
+- [ ] Beli domain → hubungkan ke Pages, ganti SITE di tools/build.py + canonical, kirim ulang sitemap di Search Console
 - [ ] Pilot 18 soal (content/clida/soal) menunggu verifikasi Ivan; cek silang Gemini 10/10 cocok (indikasi soal terlalu mudah)
 - Kerja lokal di Windows (PowerShell). Situs .go.id/.or.id kadang 403 untuk WebFetch → pakai curl.exe dengan User-Agent browser.
 - [ ] Validasi via SEO: pantau pendaftar waitlist 4–6 minggu (Ivan tidak bisa tanya agen langsung)
