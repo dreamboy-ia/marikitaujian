@@ -1,0 +1,8 @@
+name = "marikitaujian"
+pages_build_output_dir = "public"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "marikitaujian"
+database_id = "GANTI_DENGAN_ID_DARI_wrangler_d1_create"
