@@ -29,3 +29,15 @@ Soal disimpan di `content/soal/*.json` (satu sumber) → skrip membangun HTML ce
 2. Lengkapi bank soal bertahap (±40 soal/sesi kerja untuk hemat kuota) → verifikasi tiap batch.
 3. E-book 2 lebih dulu (lebih kecil, pembeda, tidak ada pesaing) → jual via Mayar.
 4. Mesin tryout + E-book 1.
+
+## Perbandingan payment gateway (16 Nov 2026)
+Contoh e-book Rp49.000:
+| Opsi | Biaya/transaksi (QRIS) | Biaya (VA) | Kirim file otomatis | Afiliasi | Kerja teknis |
+|---|---|---|---|---|---|
+| Mayar Starter | 4% + 0,7% ≈ Rp2.300 | 4% + Rp4.000 ≈ Rp5.960 | Ya | Ya, komisi otomatis | Nol |
+| Duitku / Tripay / Midtrans (langsung) | ±0,7% ≈ Rp340 (QRIS ≤Rp100rb bisa 0% per kebijakan BI Okt 2026) | Rp1.500–4.000 | Tidak — harus bangun sendiri (webhook + email) | Tidak — pakai sistem mitra kita | Sedang–besar |
+| LinkQu | Tarif merchant tidak dipublikasikan; fokus utamanya transfer | — | Tidak | Tidak | Sedang |
+| Scalev | +5% fee ePayment | — | Ya | Ya | Kecil |
+Sumber: docs.mayar.id/mor/fees (Starter 4% e-book, QRIS 0,7%, VA Rp4.000, withdraw Rp2.775); artikel perbandingan 2026.
+Keputusan: mulai dengan Mayar (tanpa coding, afiliasi otomatis). Pindah ke gateway langsung setelah ada akun/tryout online berbayar
+atau penjualan > ±300/bulan (selisih fee mulai lebih besar dari waktu kerja). Arahkan pembeli ke QRIS (fee terendah).
