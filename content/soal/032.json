@@ -1,0 +1,87 @@
+[
+  {
+    "id": "032-001",
+    "unit": "K.65ASR00.032.1",
+    "elemen": "1. Menilai kebutuhan dan situasi risiko calon nasabah",
+    "tipe": "pg-kasus",
+    "tingkat": "mudah",
+    "soal": "Bu Rina (30 tahun) adalah karyawan swasta dengan dua anak balita dan menjadi satu-satunya pencari nafkah. Di pertemuan pertama, langkah agen yang PALING sesuai standar kompetensi adalah …",
+    "opsi": [
+      "Langsung menawarkan produk unggulan kantor bulan ini karena preminya terjangkau untuk keluarga muda",
+      "Menunjukkan ilustrasi dengan uang pertanggungan terbesar supaya Bu Rina melihat perlindungan maksimal",
+      "Menggali data dan kebutuhannya lewat daftar pertanyaan sesuai prosedur, lalu mengonfirmasinya",
+      "Memberi brosur semua produk dan meminta Bu Rina memilih sendiri agar agen tidak dianggap memaksa"
+    ],
+    "kunci": 2,
+    "bahas": "Unit 032 dimulai dari menilai kebutuhan: data dan informasi calon nasabah dikumpulkan lewat daftar pertanyaan sesuai prosedur, lalu kebutuhannya dikonfirmasi. Menawarkan produk unggulan atau ilustrasi terbesar melompati tahap ini. Menyerahkan pilihan sepenuhnya ke nasabah juga keliru, karena tugas agen adalah membantu mencocokkan produk dengan kebutuhan.",
+    "rujukan": "SKKNI 12/2024 unit 032, elemen 1 (KUK 1.1–1.4)",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "032-002",
+    "unit": "K.65ASR00.032.1",
+    "elemen": "2. Mengidentifikasi produk asuransi untuk calon nasabah",
+    "tipe": "pg-konsep",
+    "tingkat": "sedang",
+    "soal": "Setelah kebutuhan calon nasabah dikonfirmasi, daftar pilihan produk yang ditawarkan agen seharusnya disusun berdasarkan …",
+    "opsi": [
+      "Hasil konfirmasi kebutuhan dan penilaian risiko, sesuai kebijakan perusahaan",
+      "Produk dengan komisi tertinggi, selama nasabah tidak keberatan dengan preminya",
+      "Produk yang paling banyak dibeli nasabah lain dengan profil usia serupa",
+      "Produk dengan premi termurah agar nasabah tidak berat membayar setiap bulan"
+    ],
+    "kunci": 0,
+    "bahas": "SKKNI menyebut daftar pilihan produk diidentifikasi berdasarkan hasil konfirmasi kebutuhan dan penilaian risiko, sesuai kebijakan, peraturan, dan standar perusahaan. Komisi, popularitas, atau harga termurah bukan dasar yang benar, karena belum tentu sesuai kebutuhan dan risiko nasabah.",
+    "rujukan": "SKKNI 12/2024 unit 032, elemen 2 (KUK 2.1)",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "032-003",
+    "unit": "K.65ASR00.032.1",
+    "elemen": "3. Menyampaikan informasi produk",
+    "tipe": "pg-kasus",
+    "tingkat": "sedang",
+    "soal": "Pak Andi ingin premi yang ringan, jadi ia memilih uang pertanggungan jauh di bawah kebutuhan yang sudah dihitung bersama agen. Tindakan agen yang PALING tepat adalah …",
+    "opsi": [
+      "Menolak memproses pengajuan sampai Pak Andi bersedia menaikkan uang pertanggungan sesuai hitungan",
+      "Langsung memproses tanpa komentar, karena besaran uang pertanggungan sepenuhnya hak nasabah",
+      "Menaikkan uang pertanggungan di formulir tanpa memberi tahu, karena itu demi kebaikan keluarganya",
+      "Menjelaskan konsekuensinya, misalnya manfaat untuk keluarga lebih kecil, lalu menghormati keputusannya"
+    ],
+    "kunci": 3,
+    "bahas": "Salah satu kriteria unjuk kerja unit 032 adalah menjelaskan konsekuensi atas pilihan produk kepada nasabah. Keputusan tetap di tangan nasabah, tapi ia harus memutuskan dengan informasi yang lengkap. Menolak memproses tidak perlu, diam berarti tidak menjalankan kewajiban menjelaskan, dan mengubah formulir tanpa sepengetahuan nasabah jelas melanggar etika.",
+    "rujukan": "SKKNI 12/2024 unit 032, elemen 3 (KUK 3.4)",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "032-W1",
+    "unit": "K.65ASR00.032.1",
+    "elemen": "1. Menilai kebutuhan dan situasi risiko calon nasabah",
+    "tipe": "wawancara",
+    "tingkat": "sedang",
+    "soal": "Ceritakan bagaimana kamu menggali kebutuhan calon nasabah sebelum merekomendasikan produk.",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: (1) mengumpulkan data calon nasabah seperti usia, pekerjaan, pendidikan, dan tanggungan; (2) memakai daftar pertanyaan sesuai prosedur perusahaan; (3) mengidentifikasi kebutuhan dan situasi risikonya; (4) mengonfirmasi kebutuhan itu kembali ke nasabah; (5) menilai risiko sesuai kebijakan perusahaan sebelum memilih produk. Beri contoh nyata dari pengalamanmu.",
+    "rujukan": "SKKNI 12/2024 unit 032, elemen 1 (KUK 1.1–1.5)",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "032-W2",
+    "unit": "K.65ASR00.032.1",
+    "elemen": "3. Menyampaikan informasi produk",
+    "tipe": "wawancara",
+    "tingkat": "sedang",
+    "soal": "Bagaimana kamu menjelaskan sebuah produk kepada calon nasabah supaya ia bisa mengambil keputusan dengan tepat?",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: menjelaskan fitur, manfaat, keunggulan, dan layanan sesuai hasil identifikasi kebutuhan; menjelaskan detail pembayaran, jangka waktu, syarat, dan kondisi; memakai alat bantu seperti ilustrasi produk; dan menjelaskan konsekuensi dari pilihan produk. Tunjukkan bahwa kamu menyesuaikan bahasa dengan latar belakang nasabah.",
+    "rujukan": "SKKNI 12/2024 unit 032, elemen 3 (KUK 3.1–3.4)",
+    "status": "draf",
+    "catatan_review": ""
+  }
+]

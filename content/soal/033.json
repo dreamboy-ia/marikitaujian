@@ -1,0 +1,87 @@
+[
+  {
+    "id": "033-001",
+    "unit": "K.65ASR00.033.1",
+    "elemen": "2. Menjelaskan penerapan prinsip-prinsip dan risiko asuransi",
+    "tipe": "pg-konsep",
+    "tingkat": "sedang",
+    "soal": "Mobil Pak Joko yang diasuransikan ditabrak pengendara lain. Setelah perusahaan asuransi membayar ganti rugi kepada Pak Joko, hak untuk menuntut pengendara yang menabrak beralih ke perusahaan asuransi. Prinsip ini disebut …",
+    "opsi": [
+      "Contribution",
+      "Subrogation",
+      "Indemnity",
+      "Proximate cause"
+    ],
+    "kunci": 1,
+    "bahas": "Subrogation (subrogasi) mengatur bahwa setelah penanggung membayar ganti rugi, hak tertanggung untuk menuntut pihak ketiga yang menimbulkan kerugian beralih ke penanggung. Contribution mengatur pembagian tanggung jawab antarpenanggung. Indemnity adalah ganti rugi untuk mengembalikan tertanggung ke keadaan sebelum kerugian. Proximate cause adalah penyebab aktif yang memicu rangkaian kejadian.",
+    "rujukan": "SKKNI 12/2024 unit 033, batasan variabel 1.3",
+    "status": "draf",
+    "catatan_review": "Contoh memakai asuransi kendaraan karena subrogasi lebih relevan untuk asuransi kerugian; SKKNI menyebut keenam prinsip untuk tenaga pemasar asuransi secara umum."
+  },
+  {
+    "id": "033-002",
+    "unit": "K.65ASR00.033.1",
+    "elemen": "3. Memberikan rekomendasi produk untuk mendapatkan kesepakatan",
+    "tipe": "pg-kasus",
+    "tingkat": "sedang",
+    "soal": "Supaya proses cepat, seorang agen meminta nasabah menandatangani SPAJ dulu, lalu mengirim RIPLAY versi personal lewat WhatsApp keesokan harinya. Penilaian yang tepat atas tindakan ini adalah …",
+    "opsi": [
+      "Tepat, karena RIPLAY versi personal boleh dikirim kapan saja selama polis belum diterbitkan",
+      "Tepat, asalkan nasabah membalas pesan WhatsApp itu sebagai tanda sudah membaca isinya",
+      "Tidak perlu dipersoalkan, karena RIPLAY versi personal hanya wajib untuk produk unit link",
+      "Tidak tepat, karena RIPLAY personal harus diberikan dan dipahami nasabah sebelum tanda tangan"
+    ],
+    "kunci": 3,
+    "bahas": "SKKNI unit 033 menyebut RIPLAY versi personal disampaikan sebelum penandatanganan perjanjian, dan konfirmasi pemahaman calon nasabah dituangkan dalam dokumen sebagai alat bukti. Mengirimnya setelah tanda tangan menghilangkan kesempatan nasabah memahami produk sebelum terikat. RIPLAY juga tidak hanya berlaku untuk unit link.",
+    "rujukan": "SKKNI 12/2024 unit 033, batasan variabel 1.4, 1.7, 1.8",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "033-003",
+    "unit": "K.65ASR00.033.1",
+    "elemen": "3. Memberikan rekomendasi produk untuk mendapatkan kesepakatan",
+    "tipe": "pg-kasus",
+    "tingkat": "sedang",
+    "soal": "Bu Sari menyetujui perjanjian asuransi jiwa berjangka panjang pada hari Senin. Menurut ketentuan yang dirujuk standar kompetensi tenaga pemasar, Bu Sari berhak atas masa jeda selama …",
+    "opsi": [
+      "2 hari kerja sejak menyetujui perjanjian",
+      "7 hari kalender sejak polis selesai dicetak",
+      "30 hari sejak premi pertama dibayar",
+      "Tidak ada masa jeda untuk asuransi jiwa"
+    ],
+    "kunci": 0,
+    "bahas": "SKKNI unit 033 menyebut pemberian masa jeda 2 hari kerja sejak konsumen menyetujui perjanjian untuk produk atau layanan berjangka panjang dan/atau kompleks. Jangan tertukar dengan periode mempelajari polis (free look period), yang merupakan ketentuan lain dan wajib dimuat dalam polis.",
+    "rujukan": "SKKNI 12/2024 unit 033, batasan variabel 1.17",
+    "status": "draf",
+    "catatan_review": "Pastikan peserta tidak bingung antara masa jeda (2 hari kerja) dan free look period."
+  },
+  {
+    "id": "033-W1",
+    "unit": "K.65ASR00.033.1",
+    "elemen": "2. Menjelaskan penerapan prinsip-prinsip dan risiko asuransi",
+    "tipe": "wawancara",
+    "tingkat": "sedang",
+    "soal": "Jelaskan prinsip utmost good faith kepada calon nasabah yang awam, dan apa akibatnya kalau prinsip ini dilanggar.",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: penjelasan sederhana bahwa calon tertanggung wajib menyampaikan fakta penting tentang risiko yang diasuransikan, misalnya riwayat kesehatan, dengan jujur; contoh konkret pengisian SPAJ; dan akibat bila fakta penting disembunyikan, yaitu klaim bisa bermasalah. Asesor juga menilai apakah bahasamu mudah dipahami nasabah.",
+    "rujukan": "SKKNI 12/2024 unit 033, elemen 2 (KUK 2.1) dan batasan variabel 1.3",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "033-W2",
+    "unit": "K.65ASR00.033.1",
+    "elemen": "3–4. Rekomendasi produk dan dokumen pengajuan",
+    "tipe": "wawancara",
+    "tingkat": "sulit",
+    "soal": "Apa saja yang kamu lakukan sebelum calon nasabah menandatangani surat permohonan asuransi (SPAJ)?",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: menyampaikan RIPLAY lalu RIPLAY versi personal sebelum tanda tangan; mengonfirmasi pemahaman nasabah atas RIPLAY dan klausula perjanjian, lalu mendokumentasikannya; menjelaskan isi surat permohonan; menginformasikan kembali tenggat waktu, syarat, dan kondisi, termasuk masa jeda; menyebut nama perusahaan dan bahwa produk berizin dan diawasi OJK; serta merekam penawaran bila dilakukan lewat komunikasi pribadi sesuai ketentuan.",
+    "rujukan": "SKKNI 12/2024 unit 033, elemen 3–4 dan batasan variabel 1.7–1.17",
+    "status": "draf",
+    "catatan_review": ""
+  }
+]

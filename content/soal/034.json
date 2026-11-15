@@ -1,0 +1,68 @@
+[
+  {
+    "id": "034-001",
+    "unit": "K.65ASR00.034.1",
+    "elemen": "1. Memberikan pelayanan kepada nasabah setelah penandatanganan polis",
+    "tipe": "pg-kasus",
+    "tingkat": "mudah",
+    "soal": "Pak Hendra, nasabahmu, mengeluh karena proses klaim rawat inapnya terasa lama dan ia kesal. Sesuai standar pelayanan nasabah, yang PALING tepat kamu lakukan adalah …",
+    "opsi": [
+      "Menjanjikan klaimnya pasti cair minggu ini supaya Pak Hendra tenang dan tidak kecewa",
+      "Menyarankan Pak Hendra berhenti membayar premi dulu sampai klaimnya benar-benar cair",
+      "Meneruskan pengaduannya sesuai prosedur perusahaan dan menjelaskan tata cara klaimnya",
+      "Menjelaskan bahwa urusan klaim sepenuhnya tanggung jawab perusahaan, bukan tugas agen"
+    ],
+    "kunci": 2,
+    "bahas": "Unit 034 meminta agen menyampaikan pengaduan nasabah sesuai ketentuan organisasi dan memberikan layanan informasi klaim, yang mencakup tata cara dan pengajuan klaim. Menjanjikan hasil yang tidak bisa kamu pastikan itu menyesatkan. Menyarankan berhenti membayar premi bisa merugikan nasabah. Menolak membantu bertentangan dengan peran agen dalam pelayanan.",
+    "rujukan": "SKKNI 12/2024 unit 034, elemen 1 (KUK 1.3, 1.4) dan batasan variabel 1.2",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "034-002",
+    "unit": "K.65ASR00.034.1",
+    "elemen": "1–2. Pelayanan setelah polis terbit dan membangun hubungan baik",
+    "tipe": "pg-konsep",
+    "tingkat": "mudah",
+    "soal": "Polis Bu Maya sudah terbit. Manakah tindakan agen berikut yang sesuai dengan unit kompetensi pelayanan nasabah?",
+    "opsi": [
+      "Menyimpan polis asli di kantor agen supaya tidak hilang",
+      "Menjelaskan isi polis saat menyerahkannya kepada Bu Maya sesuai prosedur",
+      "Membagikan data Bu Maya ke rekan agen lain sebagai bahan prospek",
+      "Meminta Bu Maya membaca polis sendiri tanpa penjelasan karena sudah ada RIPLAY"
+    ],
+    "kunci": 1,
+    "bahas": "Kriteria unjuk kerja unit 034 meliputi menjelaskan polis dan menyerahkannya kepada nasabah sesuai ketentuan, serta menjelaskan keamanan data pribadi konsumen. Menahan polis asli, membagikan data nasabah, atau tidak menjelaskan isi polis bertentangan dengan kriteria tersebut.",
+    "rujukan": "SKKNI 12/2024 unit 034, elemen 1 (KUK 1.1, 1.2) dan elemen 2 (KUK 2.3)",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "034-W1",
+    "unit": "K.65ASR00.034.1",
+    "elemen": "1. Memberikan pelayanan kepada nasabah setelah penandatanganan polis",
+    "tipe": "wawancara",
+    "tingkat": "sedang",
+    "soal": "Seorang nasabah marah karena merasa klaimnya diperlakukan tidak adil. Apa yang kamu lakukan?",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: tetap tenang dan mendengarkan; mencatat pengaduan lalu meneruskannya sesuai prosedur pengaduan perusahaan; menjelaskan tata cara klaim dan dokumen yang dibutuhkan; tidak menjanjikan hasil; dan menindaklanjuti sampai nasabah mendapat jawaban resmi. Bisa juga menyebut bahwa nasabah punya jalur penyelesaian pengaduan sesuai ketentuan.",
+    "rujukan": "SKKNI 12/2024 unit 034, elemen 1 (KUK 1.3, 1.4)",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "034-W2",
+    "unit": "K.65ASR00.034.1",
+    "elemen": "2. Membangun hubungan baik dengan nasabah",
+    "tipe": "wawancara",
+    "tingkat": "mudah",
+    "soal": "Bagaimana kamu menjaga hubungan baik dan keamanan data pribadi nasabah setelah polisnya terbit?",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: mengomunikasikan peran agen dalam layanan purna jual; menghubungi nasabah sesuai pedoman, misalnya saat jatuh tempo premi atau perubahan data; menjelaskan bagaimana data pribadinya dijaga sesuai ketentuan; dan tidak membagikan data nasabah ke pihak yang tidak berhak.",
+    "rujukan": "SKKNI 12/2024 unit 034, elemen 2 (KUK 2.1–2.3)",
+    "status": "draf",
+    "catatan_review": ""
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "035-001",
+    "unit": "K.65ASR00.035.1",
+    "elemen": "1. Mengklasifikasikan produk khusus",
+    "tipe": "pg-kasus",
+    "tingkat": "mudah",
+    "soal": "Pak Dedi tertarik pada produk yang menggabungkan perlindungan jiwa dengan penempatan dana investasi. Dalam standar kompetensi tenaga pemasar, produk seperti ini termasuk …",
+    "opsi": [
+      "Asuransi mikro, karena preminya bisa disesuaikan dengan kemampuan nasabah",
+      "Asuransi umum, karena mencakup lebih dari satu jenis manfaat sekaligus",
+      "Asuransi kredit, karena berkaitan dengan pengelolaan dana milik nasabah",
+      "Produk khusus PAYDI (Produk Asuransi yang Dikaitkan dengan Investasi)"
+    ],
+    "kunci": 3,
+    "bahas": "SKKNI menyebut produk khusus antara lain PAYDI, yaitu produk di luar yang umumnya dipasarkan dan butuh kemampuan khusus serta mengikuti aturan yang berlaku untuk menjualnya. Karena itu penjualan PAYDI punya unit kompetensi sendiri (035).",
+    "rujukan": "SKKNI 12/2024 unit 035, batasan variabel 1.2",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "035-002",
+    "unit": "K.65ASR00.035.1",
+    "elemen": "3. Memberikan rekomendasi untuk mendapatkan kesepakatan",
+    "tipe": "pg-kasus",
+    "tingkat": "sedang",
+    "soal": "Sehari setelah menyetujui perjanjian produk unit link, Bu Lina berubah pikiran dan membatalkannya, masih dalam masa jeda. Yang benar menurut ketentuan dalam standar kompetensi adalah …",
+    "opsi": [
+      "Tidak boleh ada penalti atau sanksi karena dibatalkan di masa jeda",
+      "Bu Lina wajib membayar penalti 10% dari premi tahunan sebagai biaya administrasi",
+      "Pembatalan baru bisa diproses setelah polis resmi terbit dan diterima nasabah",
+      "Agen boleh menunda pembatalan sampai target penjualan bulanannya tercapai"
+    ],
+    "kunci": 0,
+    "bahas": "Batasan variabel unit 035 menyebut masa jeda 2 hari kerja sejak menyetujui perjanjian, serta larangan membebankan biaya penalti dan/atau sanksi bila nasabah membatalkan perjanjian di masa jeda. Angka penalti di opsi B dikarang, dan menahan pembatalan demi target jelas melanggar.",
+    "rujukan": "SKKNI 12/2024 unit 035, batasan variabel 1.4, 1.5",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "035-W1",
+    "unit": "K.65ASR00.035.1",
+    "elemen": "2. Memberikan penjelasan produk khusus kepada nasabah",
+    "tipe": "wawancara",
+    "tingkat": "sulit",
+    "soal": "Bagaimana kamu menjelaskan risiko dan biaya produk unit link kepada calon nasabah yang belum pernah berinvestasi?",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: menjelaskan bahwa ada bagian investasi yang nilainya bisa naik atau turun; bahwa manfaat, risiko, dan biaya produk wajib dijelaskan; memberi contoh pengelolaan risiko; menjelaskan faktor penentu premi atau kontribusi dan biayanya; tidak menjanjikan hasil investasi pasti; dan mengecek pemahaman nasabah dengan teknik tanya jawab.",
+    "rujukan": "SKKNI 12/2024 unit 035, elemen 2 dan batasan variabel 1.3",
+    "status": "draf",
+    "catatan_review": ""
+  },
+  {
+    "id": "035-W2",
+    "unit": "K.65ASR00.035.1",
+    "elemen": "3–4. Rekomendasi dan dokumen pengajuan produk khusus",
+    "tipe": "wawancara",
+    "tingkat": "sedang",
+    "soal": "Apa yang kamu sampaikan kepada nasabah tentang masa jeda saat menjual produk unit link?",
+    "opsi": [],
+    "kunci": null,
+    "bahas": "Poin yang dicari asesor: nasabah punya masa jeda 2 hari kerja sejak menyetujui perjanjian; selama masa jeda nasabah boleh membatalkan tanpa penalti atau sanksi; agen menginformasikan kembali tenggat waktu, syarat, dan kondisi sebelum kesepakatan; dan semuanya didokumentasikan dalam dokumen pengajuan.",
+    "rujukan": "SKKNI 12/2024 unit 035, elemen 3 (KUK 3.2) dan batasan variabel 1.4, 1.5",
+    "status": "draf",
+    "catatan_review": ""
+  }
+]

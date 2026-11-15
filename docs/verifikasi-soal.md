@@ -28,3 +28,9 @@ Sumber: lsp.aaji.or.id; PDF Kepmenaker 12/2024 (salinan ppid.bantenprov.go.id); 
 ## Masih dari berita (belum dari dokumen primer)
 - Wajib sejak 1 Juli 2026; bertahap s.d. 2030; 471.038 agen di SPRINT; izin OJK S-22/KS.2/2026; BNSP-LSP-2779-ID
 - Pemetaan unit SKKNI → skema CLIDA vs CLIDP (situs LSP tidak mencantumkan daftar unit per skema)
+
+## Batch pilot Tahap 2 (16 Nov 2026) — DRAF, menunggu verifikasi Ivan
+File: `content/soal/032.json`, `033.json`, `034.json`, `035.json` — 10 PG + 8 wawancara.
+Sumber: teks SKKNI 12/2024 unit 032–035 (elemen, KUK, batasan variabel). Panjang opsi sudah diseimbangkan.
+Cek silang buta dengan Gemini BELUM dilakukan (belum ada API key Gemini di laptop) — hanya cek mandiri.
+Perhatikan: 033-001 (subrogasi) memakai contoh asuransi kendaraan — putuskan apakah relevan untuk ujian agen asuransi JIWA.
