@@ -5,4 +5,4 @@ compatibility_date = "2026-11-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "marikitaujian"
-database_id = "GANTI_DENGAN_ID_DARI_wrangler_d1_create"
+database_id = "c61de50b-d451-4a06-98b5-8b6e4fe14647"
