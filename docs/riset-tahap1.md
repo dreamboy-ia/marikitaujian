@@ -66,3 +66,15 @@ Ini akan diuji dengan 10 soal di awal Tahap 2.
 - https://ikpi.or.id/?p=20521 ; https://ikpi.or.id/en/?p=22039
 - https://docs.mayar.id/mor/fees.md
 - https://www.rctiplus.com/news/detail/terkini/5453488/biaya-transaksi-qris-gratis-bagi-semua-merchant-mulai-1-oktober-2026
+
+## Update 16 Nov 2026 — data langsung dari situs LSP AAJI & SKKNI
+Temuan yang mengubah strategi:
+1. **Pendaftaran lewat perusahaan asuransi**, bukan perorangan. Jalur B2B (agency, bagian keagenan/training perusahaan)
+   jadi lebih penting. Program mitra untuk leader/trainer sudah tepat.
+2. **Kapasitas uji masih sangat kecil**: hanya 2 TUK (Jakarta), jadwal ±mingguan, penghitung asesi masih 0.
+   Gelombang peserta besar kemungkinan baru datang 2027+. Ini memberi waktu untuk SEO dan bank soal, tapi penjualan
+   di bulan-bulan awal kemungkinan kecil. Pantau jumlah TUK dan jadwal tiap bulan sebagai indikator.
+3. **Asesmen bukan hanya pilihan ganda**: SKKNI menyebut simulasi, portofolio, wawancara, tes lisan & tertulis.
+   Produk sebaiknya mencakup: (a) tryout pilihan ganda/kasus, (b) simulasi pertanyaan wawancara asesor + contoh jawaban,
+   (c) panduan menyusun portofolio & mengisi APL-02. Produk (b) dan (c) belum dimiliki pesaing mana pun.
+4. Materi resmi kini jelas: 4 unit SKKNI (032–035) + POJK 8/2024 + ketentuan perlindungan konsumen (RIPLAY, masa jeda).
