@@ -37,7 +37,9 @@ WAPERD/WPPE, psikotes rekrutmen BUMN/swasta, PCPM BI, OJK, sertifikasi industri 
 - [x] Tahap 1 riset desk selesai → rekomendasi CLIDA (LSP AAJI), lihat docs/riset-tahap1.md
 - [x] Landing page + 5 artikel SEO + program mitra/afiliasi (Pages Functions + D1) — lihat docs/DEPLOY.md
 - [x] Fakta artikel diverifikasi dari situs resmi (LSP AAJI, SKKNI 12/2024, POJK 8/2024) — lihat docs/verifikasi-soal.md
-- [ ] Ivan: centang 5 soal contoh (docs/verifikasi-soal.md), lalu deploy (docs/DEPLOY.md)
+- [x] 5 soal contoh diverifikasi Ivan; situs LIVE di https://marikitaujian.pages.dev (D1 `marikitaujian`, APAC)
+- Deploy ulang: `wrangler pages deploy --branch main` (login wrangler via OAuth sudah tersimpan di laptop Ivan)
+- [ ] Daftarkan ke Google Search Console + kirim sitemap
 - Kerja lokal di Windows (PowerShell). Situs .go.id/.or.id kadang 403 untuk WebFetch → pakai curl.exe dengan User-Agent browser.
 - [ ] Validasi via SEO: pantau pendaftar waitlist 4–6 minggu (Ivan tidak bisa tanya agen langsung)
 

@@ -1,14 +1,14 @@
 # Verifikasi soal (wajib sebelum terbit — aturan no. 3)
 
-Status: **5 soal contoh di beranda (`public/index.html`, blok `quiz-sample`) = DRAF, menunggu centang Ivan.**
+Status: **5 soal contoh di beranda (`public/index.html`, blok `quiz-sample`) = DIVERIFIKASI Ivan (16 Nov 2026), boleh terbit.**
 Soal dibuat sendiri dari SKKNI 12/2024 & POJK 8/2024 (bukan dari soal ujian resmi). Rujukan tiap soal:
 
-- [ ] 1. Utmost good faith (SPAJ, riwayat penyakit) — SKKNI unit 033, batasan variabel 1.3
-- [ ] 2. Insurable interest (pasangan hidup) — SKKNI unit 033, batasan variabel 1.3
-- [ ] 3. Ciri asuransi berjangka (term life) — pengetahuan produk unit 032/033 (konsep umum)
-- [ ] 4. Free look period — POJK 8/2024 Pasal 12 huruf r (+ penjelasan: "dikenal dengan istilah free look period");
+- [x] 1. Utmost good faith (SPAJ, riwayat penyakit) — SKKNI unit 033, batasan variabel 1.3
+- [x] 2. Insurable interest (pasangan hidup) — SKKNI unit 033, batasan variabel 1.3
+- [x] 3. Ciri asuransi berjangka (term life) — pengetahuan produk unit 032/033 (konsep umum)
+- [x] 4. Free look period — POJK 8/2024 Pasal 12 huruf r (+ penjelasan: "dikenal dengan istilah free look period");
       wajib dimuat di polis berjangka > 1 tahun. Durasinya TIDAK diatur di POJK 8/2024, jadi tidak disebut.
-- [ ] 5. Etika menawarkan PAYDI — SKKNI unit 035 & unit 033 (informasi tidak menyesatkan, risiko & biaya)
+- [x] 5. Etika menawarkan PAYDI — SKKNI unit 035 & unit 033 (informasi tidak menyesatkan, risiko & biaya)
 
 Cek per soal: kunci benar, hanya satu jawaban benar, pembahasan tidak salah fakta.
 
