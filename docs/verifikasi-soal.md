@@ -30,7 +30,9 @@ Sumber: lsp.aaji.or.id; PDF Kepmenaker 12/2024 (salinan ppid.bantenprov.go.id); 
 - Pemetaan unit SKKNI → skema CLIDA vs CLIDP (situs LSP tidak mencantumkan daftar unit per skema)
 
 ## Batch pilot Tahap 2 (16 Nov 2026) — DRAF, menunggu verifikasi Ivan
-File: `content/soal/032.json`, `033.json`, `034.json`, `035.json` — 10 PG + 8 wawancara.
+File: `content/clida/soal/032.json`, `033.json`, `034.json`, `035.json` — 10 PG + 8 wawancara.
 Sumber: teks SKKNI 12/2024 unit 032–035 (elemen, KUK, batasan variabel). Panjang opsi sudah diseimbangkan.
 Cek silang buta dengan Gemini BELUM dilakukan (belum ada API key Gemini di laptop) — hanya cek mandiri.
 Perhatikan: 033-001 (subrogasi) memakai contoh asuransi kendaraan — putuskan apakah relevan untuk ujian agen asuransi JIWA.
+
+Cek silang buta Gemini (gemini-flash-latest, 16 Nov 2026): 10/10 kunci cocok, semua yakin 5/5, tidak ada soal ditandai ambigu. Catatan: kemungkinan soal terlalu mudah -> batch berikutnya perbanyak tingkat sulit.

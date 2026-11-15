@@ -29,7 +29,7 @@ Ringkasan fakta terverifikasi ada di `docs/verifikasi-soal.md`. Jika butuh detai
    - Kata kunci negatif (KECUALI, TIDAK) ditulis kapital; hindari negatif ganda.
    - Panjang opsi seimbang (jawaban benar tidak selalu yang terpanjang); posisi kunci tersebar A–D.
 4. **Cek silang buta**: kerjakan ulang soal tanpa melihat kunci (atau minta Gemini menjawabnya). Soal yang jawabannya berbeda → tandai `perlu_review` dan jelaskan alasannya.
-5. **Simpan** ke file bank soal (lokasi ditentukan di Tahap 2; sementara `content/soal/<unit>.json`) dengan `status: "draf"`.
+5. **Simpan** ke file bank soal (lokasi ditentukan di Tahap 2; sementara `content/<ujian>/soal/<unit>.json`) dengan `status: "draf"`.
 6. **Laporkan ke Ivan**: jumlah soal per unit, daftar yang `perlu_review`, dan ringkas sumber yang dipakai. Minta verifikasi.
 
 ## Format soal (JSON)

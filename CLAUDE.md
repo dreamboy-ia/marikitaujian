@@ -39,12 +39,16 @@ WAPERD/WPPE, psikotes rekrutmen BUMN/swasta, PCPM BI, OJK, sertifikasi industri 
 - [x] Fakta artikel diverifikasi dari situs resmi (LSP AAJI, SKKNI 12/2024, POJK 8/2024) — lihat docs/verifikasi-soal.md
 - [x] 5 soal contoh diverifikasi Ivan; situs LIVE di https://marikitaujian.pages.dev (D1 `marikitaujian`, APAC)
 - Deploy ulang: `wrangler pages deploy --branch main` (login wrangler via OAuth sudah tersimpan di laptop Ivan)
-- [ ] Daftarkan ke Google Search Console + kirim sitemap
+- [x] Google Search Console terverifikasi, sitemap dikirim (16 Nov 2026)
+- [x] Struktur MULTI-UJIAN: / = hub, /clida/ = landing CLIDA, /clida/artikel/<slug>; redirect 301 dari /artikel/*.
+      Tambah ujian: entri EXAMS di tools/build.py + UJIAN di functions/api/waitlist.js + public/<ujian>/index.html.
+- Gemini API key ada di env user GEMINI_API_KEY (baca dari registry, jangan dicetak). Free tier: pakai gemini-flash-latest (Pro kena 429).
+- [ ] Pilot 18 soal (content/clida/soal) menunggu verifikasi Ivan; cek silang Gemini 10/10 cocok (indikasi soal terlalu mudah)
 - Kerja lokal di Windows (PowerShell). Situs .go.id/.or.id kadang 403 untuk WebFetch → pakai curl.exe dengan User-Agent browser.
 - [ ] Validasi via SEO: pantau pendaftar waitlist 4–6 minggu (Ivan tidak bisa tanya agen langsung)
 
 ## Struktur repo
 - `public/` situs statis (Cloudflare Pages). `functions/api/` = endpoint `waitlist` & `mitra` (D1 binding `DB`).
-- `content/artikel/*.html` sumber artikel → `python3 tools/build.py` membangun `public/artikel/`, sitemap, robots.
+- `content/<ujian>/artikel/*.html` sumber artikel → `python3 tools/build.py` membangun `public/<ujian>/artikel/`, sitemap, robots.
 - Referral: `?ref=KODE` disimpan 60 hari di localStorage, ikut terkirim saat daftar waitlist. Komisi mitra 25% (dihitung manual dari D1).
 - URL tanpa `.html` (Cloudflare Pages me-redirect .html → 308).

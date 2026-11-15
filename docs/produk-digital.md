@@ -20,12 +20,12 @@ Patokan harga: siapukom Rp10rb–64rb; biaya uji CLIDA Rp350rb (gagal = bayar la
 - Akun Mayar HARUS dibuat Ivan sendiri (data diri/KYC, rekening pencairan).
 
 ## Pembuatan PDF (gratis)
-Soal disimpan di `content/soal/*.json` (satu sumber) → skrip membangun HTML cetak → PDF via Chromium/Edge headless
+Soal disimpan di `content/clida/soal/*.json` (satu sumber) → skrip membangun HTML cetak → PDF via Chromium/Edge headless
 (`msedge --headless --print-to-pdf`). Watermark nama pembeli tidak didukung tanpa backend; cukup footer hak cipta
 + larangan menyebarkan.
 
 ## Urutan kerja
-1. Ivan verifikasi 18 item pilot (`content/soal/`).
+1. Ivan verifikasi 18 item pilot (`content/clida/soal/`).
 2. Lengkapi bank soal bertahap (±40 soal/sesi kerja untuk hemat kuota) → verifikasi tiap batch.
 3. E-book 2 lebih dulu (lebih kecil, pembeda, tidak ada pesaing) → jual via Mayar.
 4. Mesin tryout + E-book 1.

@@ -1,0 +1,3 @@
+/artikel/ /clida/artikel/ 301
+/artikel /clida/artikel/ 301
+/artikel/* /clida/artikel/:splat 301
