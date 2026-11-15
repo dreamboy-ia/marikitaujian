@@ -30,7 +30,7 @@ WAPERD/WPPE, psikotes rekrutmen BUMN/swasta, PCPM BI, OJK, sertifikasi industri 
 - **Tahap 2 — MVP** (±2–3 minggu): landing page + 1 tryout gratis (30–50 soal + pembahasan) + 1 paket berbayar;
   mesin tryout (timer, skor, pembahasan, riwayat nilai); Cloudflare Pages (+ Workers/D1 untuk akun & akses);
   pembayaran via link payment gateway (Mayar, LinkQu, dsb — cek fee); alur soal: Gemini draf dari kisi-kisi → verifikasi manusia.
-- **Tahap 3 — Distribusi**: strategi marketing (Threads build-in-public, komunitas, dsb).
+- **Tahap 3 — Distribusi**: Ivan TIDAK mau post Threads/medsos pribadi. Fokus: SEO (long-tail, tryout gratis terindeks), afiliasi leader agency, konten faceless (ElevenLabs), iklan hanya dari omzet (bukan modal awal).
 
 ## Status
 - [x] CLAUDE.md dibuat
