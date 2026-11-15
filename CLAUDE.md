@@ -36,7 +36,9 @@ WAPERD/WPPE, psikotes rekrutmen BUMN/swasta, PCPM BI, OJK, sertifikasi industri 
 - [x] CLAUDE.md dibuat
 - [x] Tahap 1 riset desk selesai → rekomendasi CLIDA (LSP AAJI), lihat docs/riset-tahap1.md
 - [x] Landing page + 5 artikel SEO + program mitra/afiliasi (Pages Functions + D1) — lihat docs/DEPLOY.md
-- [ ] Ivan: verifikasi 5 soal contoh & fakta artikel (docs/verifikasi-soal.md), lalu deploy
+- [x] Fakta artikel diverifikasi dari situs resmi (LSP AAJI, SKKNI 12/2024, POJK 8/2024) — lihat docs/verifikasi-soal.md
+- [ ] Ivan: centang 5 soal contoh (docs/verifikasi-soal.md), lalu deploy (docs/DEPLOY.md)
+- Kerja lokal di Windows (PowerShell). Situs .go.id/.or.id kadang 403 untuk WebFetch → pakai curl.exe dengan User-Agent browser.
 - [ ] Validasi via SEO: pantau pendaftar waitlist 4–6 minggu (Ivan tidak bisa tanya agen langsung)
 
 ## Struktur repo
