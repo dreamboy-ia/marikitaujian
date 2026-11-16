@@ -32,7 +32,12 @@ export async function onRequestPost({ request, env }) {
   } catch (e) {
     return json({ error: "Server sedang bermasalah" }, 500);
   }
-  return json({ message: `Terima kasih, ${nama}! Kamu sudah terdaftar. Kami kabari begitu tryout lengkap dibuka.` });
+  const tambahan = {
+    "agen-gagal": " Sambil menunggu, minta umpan balik dari asesor tentang unit yang dinilai belum kompeten, lalu mulai dari unit itu.",
+    "leader": " Untuk menyiapkan satu tim sekaligus, daftar juga di program mitra (menu Jadi mitra): kamu dapat link khusus dan komisi 25%.",
+    "calon-agen": " Sambil menunggu, baca artikel materi uji kompetensi untuk mengenal 4 unit yang diuji.",
+  }[status] || "";
+  return json({ message: `Terima kasih, ${nama}! Kamu sudah terdaftar. Kami kabari begitu tryout lengkap dibuka.${tambahan}` });
 }
 
 export const onRequest = () => json({ error: "Method not allowed" }, 405);

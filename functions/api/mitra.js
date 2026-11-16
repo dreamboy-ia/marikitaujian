@@ -26,7 +26,7 @@ export async function onRequestPost({ request, env }) {
   const origin = new URL(request.url).origin;
   try {
     const existing = await env.DB.prepare("SELECT code FROM mitra WHERE email=?1").bind(email).first();
-    if (existing) return json({ code: existing.code, link: `${origin}/?ref=${existing.code}` });
+    if (existing) return json({ code: existing.code, link: `${origin}/clida/?ref=${existing.code}` });
 
     for (let i = 0; i < 5; i++) {
       const code = makeCode(nama);
@@ -37,7 +37,7 @@ export async function onRequestPost({ request, env }) {
           PERAN.includes(b.peran) ? b.peran : "lainnya",
           TIM.includes(b.tim) ? b.tim : null,
           clean(b.kanal, 160) || null).run();
-        return json({ code, link: `${origin}/?ref=${code}` });
+        return json({ code, link: `${origin}/clida/?ref=${code}` });
       } catch (e) {
         if (!String(e.message || e).includes("UNIQUE")) throw e; // bentrok kode → coba lagi
       }

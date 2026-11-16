@@ -1,4 +1,4 @@
-// Mari Kita Ujian — tracking referral, kuis contoh, dan form.
+// Mari Kita Ujian: tracking referral, kuis contoh, dan form.
 (function () {
   "use strict";
   var REF_KEY = "mku_ref";
@@ -27,7 +27,9 @@
   function initQuiz(root) {
     var data;
     try { data = JSON.parse(document.getElementById(root.dataset.src).textContent); } catch (e) { return; }
-    var i = 0, score = 0;
+    var i = 0, score = 0, per = {};
+    var UNIT = { "032": "Mengidentifikasi kebutuhan nasabah", "033": "Proses penjualan dan prinsip asuransi",
+                 "034": "Pelayanan nasabah dan polis", "035": "Produk khusus (PAYDI/unit link)" };
     function render() {
       if (i >= data.length) return done();
       var q = data[i];
@@ -54,10 +56,19 @@
         else if (j === k) b.classList.add("wrong");
       });
       if (k === q.kunci) score++;
+      if (q.unit) {
+        per[q.unit] = per[q.unit] || { b: 0, n: 0 };
+        per[q.unit].n++; if (k === q.kunci) per[q.unit].b++;
+      }
       var after = root.querySelector(".after");
       var ex = document.createElement("div");
       ex.className = "expl";
       ex.textContent = (k === q.kunci ? "Benar. " : "Belum tepat. ") + q.bahas;
+      if (q.rujukan) {
+        var src = document.createElement("span");
+        src.className = "src"; src.textContent = "Rujukan: " + q.rujukan;
+        ex.appendChild(src);
+      }
       after.appendChild(ex);
       var nx = document.createElement("button");
       nx.type = "button"; nx.className = "btn"; nx.style.marginTop = "14px";
@@ -68,16 +79,29 @@
     }
     function done() {
       var pct = Math.round((score / data.length) * 100);
-      var verdict = pct >= 80 ? "Dasarnya sudah kuat. Uji diri dengan tryout lengkap sebelum hari-H."
-        : pct >= 60 ? "Lumayan, tapi masih ada celah. Di ujian sungguhan soalnya lebih banyak dan lebih detail."
-        : "Masih banyak yang perlu diulang. Lebih baik ketahuan sekarang daripada saat ujian.";
+      var verdict = pct >= 80 ? "Dasarnya sudah kuat. Sekarang uji dirimu dengan soal yang lebih banyak dan lebih sulit."
+        : pct >= 60 ? "Lumayan, tapi masih ada celah. Di ujian sungguhan materinya lebih luas dan lebih detail."
+        : "Masih banyak yang perlu diulang. Untung ketahuan sekarang, bukan saat diuji asesor.";
+      // Diagnosis per unit kompetensi: urutkan dari yang paling lemah
+      var units = Object.keys(per).sort(function (a, b) { return per[a].b / per[a].n - per[b].b / per[b].n; });
+      var weak = units.filter(function (u) { return per[u].b < per[u].n; });
+      var rows = units.map(function (u) {
+        var ok = per[u].b === per[u].n;
+        return '<li><span>Unit ' + u + ": " + UNIT[u] + '</span><span class="' + (ok ? "kuat" : "lemah") + '">' +
+          per[u].b + "/" + per[u].n + (ok ? " aman" : " perlu diulang") + "</span></li>";
+      }).join("");
+      var focus = weak.length
+        ? "Mulai belajar dari unit " + weak[0] + " (" + UNIT[weak[0]] + ")."
+        : "Tidak ada unit yang salah di 5 soal ini. Tapi 5 soal belum cukup untuk memastikan.";
       root.innerHTML =
         '<div class="q"><p class="note">Skor kamu</p><div class="score">' + score + "/" + data.length + " (" + pct + "%)</div>" +
         "<p>" + verdict + "</p>" +
-        '<p class="note">Ini baru ' + data.length + " soal. Tryout lengkap CLIDA (40 soal, timer, pembahasan tiap soal, dan peta topik lemah) dibuka gratis untuk pendaftar awal.</p>" +
-        '<div class="cta-row"><a class="btn" href="#daftar">Daftar akses tryout gratis</a>' +
+        '<p class="note" style="margin-bottom:0">Peta kemampuanmu per unit kompetensi:</p><ul class="diag">' + rows + "</ul>" +
+        "<p><b>" + focus + "</b></p>" +
+        '<p class="note">5 soal hanya memberi gambaran awal. Tryout lengkap (40 soal dengan timer) memetakan keempat unit secara utuh, lengkap dengan pembahasan tiap soal. Pendaftar awal mendapatkannya gratis.</p>' +
+        '<div class="cta-row"><a class="btn" href="#daftar">Daftar tryout gratis</a>' +
         '<button type="button" class="btn ghost" id="qz-again">Ulangi</button></div></div>';
-      document.getElementById("qz-again").onclick = function () { i = 0; score = 0; render(); };
+      document.getElementById("qz-again").onclick = function () { i = 0; score = 0; per = {}; render(); };
       try { localStorage.setItem("mku_quiz_score", String(pct)); } catch (e) {}
     }
     render();
@@ -104,9 +128,25 @@
           if (res.j.link) {
             out.innerHTML = '<div class="msg ok">Pendaftaran mitra berhasil. Kode kamu: <b></b></div>' +
               '<div class="reflink"><input readonly><button type="button" class="btn">Salin link</button></div>' +
-              '<p class="note">Bagikan link ini. Setiap orang yang mendaftar dan membeli lewat link ini dicatat atas nama kamu.</p>';
+              '<p class="note">Bagikan link ini. Setiap orang yang mendaftar dan membeli lewat link ini dicatat atas nama kamu.</p>' +
+              '<p style="margin:16px 0 6px"><b>Pesan siap kirim untuk grup WA tim</b> (boleh diubah):</p>' +
+              '<textarea class="wa-tpl" readonly></textarea>' +
+              '<div class="cta-row" style="margin-top:8px"><button type="button" class="btn ghost" id="copy-wa">Salin pesan</button></div>';
             out.querySelector("b").textContent = res.j.code;
             var inp = out.querySelector("input"); inp.value = res.j.link;
+            var tpl = out.querySelector(".wa-tpl");
+            tpl.value = "Rekan-rekan, uji kompetensi CLIDA dari LSP AAJI sekarang wajib untuk agen asuransi jiwa. " +
+              "Biaya ujinya Rp350 ribu, dan kalau belum kompeten harus daftar ulang lewat kantor.\n\n" +
+              "Sebelum ujian, coba dulu 5 soal latihan gratis di sini. Hasilnya langsung menunjukkan unit kompetensi mana yang masih lemah:\n" +
+              res.j.link + "\n\n" +
+              "Soalnya disusun dari SKKNI dan POJK, ada pembahasan dan rujukan aturannya. Daftar juga untuk tryout lengkapnya, gratis untuk pendaftar awal.";
+            out.querySelector("#copy-wa").onclick = function () {
+              tpl.select();
+              (navigator.clipboard ? navigator.clipboard.writeText(tpl.value) : Promise.reject()).then(
+                function () { this.textContent = "Tersalin ✓"; }.bind(this),
+                function () { document.execCommand("copy"); }
+              );
+            };
             out.querySelector(".reflink .btn").onclick = function () {
               inp.select();
               (navigator.clipboard ? navigator.clipboard.writeText(res.j.link) : Promise.reject()).then(

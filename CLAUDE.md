@@ -14,6 +14,13 @@
 4. Selalu sertakan **hook** yang menarik user untuk ikut tes atau membeli produk digital
    (tryout gratis, skor/peringkat, pembahasan terkunci, dsb).
 
+5. **Persuasi jujur saja** (keputusan Ivan, 16 Nov 2026): boleh pakai psikologi marketing (loss aversion, anchoring,
+   decoy, komitmen kecil, reciprocity, authority) tapi DILARANG timer palsu, angka pendaftar/penjualan palsu,
+   testimoni karangan, atau kelangkaan yang tidak nyata. Angka sosial hanya dari data asli (D1/Mayar).
+   Copy mengikuti skill antislop-copywriting (tanpa em dash, tanpa buzzword).
+   Harga disetujui: E-book Wawancara Rp39rb · Bank Soal Rp49rb · Bundle Rp69rb (perdana Rp49rb untuk 100 pembeli pertama).
+   Garansi uang kembali: BELUM disetujui.
+
 ## Ide proyek
 Web latihan/tryout ujian **NICHE**. Inspirasi: post Threads @mashaaq21 (Nov 2026) tentang web tryout UPKP & UKOM ASN
 (klaim 1.571 member, ±Rp16,2 jt/bulan; paket ±Rp10rb ×601, ±Rp44rb ×86, ±Rp64rb ×60). Pembeli datang dari post
